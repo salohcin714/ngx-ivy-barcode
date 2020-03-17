@@ -1,0 +1,35 @@
+{
+  "name": "@greatcloak/ngx-barcode",
+  "version": "1.0.0",
+  "description": "Angular v9+ compoent for creating 1-D barcodes based on Lindell's JsBarcode. Repackaged and updated version of ngx-barcode.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greatcloak/ngx-barcode"
+  },
+  "homepage": "https://github.com/greatcloak/ngx-barcode#readme",
+  "author": {
+    "name": "Bryon Williams",
+    "email": "bryon.williams@live.com"
+  },
+  "contributors": [
+    {
+      "name": "Ed Pelc",
+      "email": "ed@freightchick.com"
+    }
+  ],
+  "keywords": [
+    "angular",
+    "barcode",
+    "jsbarcode"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greatcloak/ngx-barcode/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.6",
+    "@angular/core": "^9.0.6",
+    "tslib": "^1.10.0",
+    "jsbarcode": "^3.6.0"
+  }
+}

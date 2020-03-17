@@ -1,18 +1,30 @@
 <div align="center">
   <img src="https://cdn.rawgit.com/yobryon/ngx-barcode/master/docs/assets/ngx-barcode.svg" width="200px" alt="ngx-barcode">
-  <h1 align="center">ngx-barcode</h1>
-  <p>A barcode component for Angular4+.</p>
+  <h1 align="center">@greatcloak/ngx-barcode</h1>
+  <p>ngx-barcode repackaged and updated for Angular v9+ using the Angular CLI</p>
 </div>
 
-___
+---
 
-An angular component for Angular 4+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
+An angular component for Angular 9+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
 
-## Demo 
-Basic [demo](https://yobryon.github.io/ngx-barcode/demo/).
+This is an updated and repackaged version of the original ngx-barcode. We have repackaged using the angular cli and angular v9.
+
+## Benefits over ngx-barcode
+
+- Repackaged using angular cli instead of custom build
+  - Easy to upgrade via `ng update`
+  - Standard build process
+- Uses latest angular v9
+  - Actively updated to newer versions since this is used in live production apps. Typically updated a few weeks after each major angular release.
+- Minor improvements as needed
 
 ## Features
+
+- Compatible with original ngx-barcode(just change imports)
+- Repackaged using angular cli and updated to support angular v9
 - supports all barcode formats provided by JsBarcode
+
   - CODE128
   - EAN
   - CODE39
@@ -26,7 +38,7 @@ Basic [demo](https://yobryon.github.io/ngx-barcode/demo/).
 To use ngx-barcode in your project, install it via npm:
 
 ```bash
-$ npm install ngx-barcode --save
+$ npm install --save @greatcloak/ngx-barcode
 ```
 
 ## Usage
@@ -34,26 +46,21 @@ $ npm install ngx-barcode --save
 Import the NgxBarcodeModule into your desired module:
 
 ```typescript
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './app.component'
 
 // Import ngx-barcode module
-import { NgxBarcodeModule } from 'ngx-barcode';
+import { NgxBarcodeModule } from '@greatcloak/ngx-barcode'
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    NgxBarcodeModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, NgxBarcodeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 Once the library is imported, you can use the ngx-barcode component in your Angular application:
@@ -68,17 +75,25 @@ Once the library is imported, you can use the ngx-barcode component in your Angu
 
 ## Development
 
-To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
+To build the `@greatcloak/ngx-barcode` library using the angular cli use the following command.
 
 ```bash
-$ npm run build
+npm run build
 ```
 
-To lint all `*.ts` files:
+## New Release
+
+To build and publish a new version run the following script.
 
 ```bash
-$ npm run lint
+./build-prod-publish.sh
 ```
+
+## Demo
+
+We do not maintain a demo of this new version however you can look at the oriignal project's demo page to get an idea of what this does.
+
+Basic [demo](https://yobryon.github.io/ngx-cdbarcode/demo/).
 
 ## License
 
