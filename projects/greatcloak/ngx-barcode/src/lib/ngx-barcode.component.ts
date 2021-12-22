@@ -6,10 +6,7 @@ import {
   Renderer2,
   ElementRef,
 } from '@angular/core'
-
-declare var require: any
-
-let jsbarcode = require('jsbarcode')
+import * as jsbarcode from 'jsbarcode'
 
 // FormatCode is a format of a barcode
 export type FormatCode =
@@ -35,9 +32,7 @@ export type FormatCode =
 
 @Component({
   selector: 'ngx-barcode',
-  template: `
-    <div #bcElement [class]="cssClass"></div>
-  `,
+  template: ` <div #bcElement [class]="cssClass"></div> `,
 })
 export class NgxBarcodeComponent implements OnChanges {
   @Input('bc-element-type')
