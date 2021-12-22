@@ -26,10 +26,12 @@
   "bugs": {
     "url": "https://github.com/greatcloak/ngx-barcode/issues"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": "^9.0.6",
     "@angular/core": "^9.0.6",
-    "tslib": "^1.10.0",
     "jsbarcode": "^3.6.0"
   }
 }
