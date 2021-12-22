@@ -6,7 +6,21 @@
 
 ---
 
-An angular component for Angular 9+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
+# Changes vs ngx-barcode
+
+This repository is a repackaged and updated version of ngx-barcode.
+
+- Updated for angular 13+
+- Repackaged using angular cli for more efficient distribution files and standardized builds
+- Updated jsbarcode to latest 3.11.5+ with modern `import` statements
+
+Install via
+
+`npm i --save @greatcloak/ngx-barcode`
+
+# Original
+
+An angular component for Angular 13+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
 
 This is an updated and repackaged version of the original ngx-barcode. We have repackaged using the angular cli and angular v9.
 
