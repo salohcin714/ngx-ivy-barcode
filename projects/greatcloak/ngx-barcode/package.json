@@ -1,6 +1,6 @@
 {
   "name": "@greatcloak/ngx-barcode",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Angular v13+ compoent for creating 1-D barcodes based on Lindell's JsBarcode. Repackaged and updated version of ngx-barcode.",
   "repository": {
     "type": "git",
