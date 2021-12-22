@@ -28,18 +28,6 @@
             "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.spec.json",
             "karmaConfig": "projects/greatcloak/ngx-barcode/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/greatcloak/ngx-barcode/tsconfig.lib.json",
-              "projects/greatcloak/ngx-barcode/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     }},

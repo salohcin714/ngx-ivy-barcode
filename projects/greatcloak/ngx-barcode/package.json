@@ -1,7 +1,7 @@
 {
   "name": "@greatcloak/ngx-barcode",
-  "version": "1.0.0",
-  "description": "Angular v9+ compoent for creating 1-D barcodes based on Lindell's JsBarcode. Repackaged and updated version of ngx-barcode.",
+  "version": "2.0.0",
+  "description": "Angular v13+ compoent for creating 1-D barcodes based on Lindell's JsBarcode. Repackaged and updated version of ngx-barcode.",
   "repository": {
     "type": "git",
     "url": "https://github.com/greatcloak/ngx-barcode"
@@ -30,8 +30,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^9.0.6",
-    "@angular/core": "^9.0.6",
-    "jsbarcode": "^3.6.0"
+    "@angular/common": "^13.1.1",
+    "@angular/core": "^13.1.1",
+    "jsbarcode": "^3.11.5"
   }
 }
