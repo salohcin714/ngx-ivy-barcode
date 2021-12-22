@@ -6,7 +6,8 @@ import {
   Renderer2,
   ElementRef,
 } from '@angular/core'
-import * as jsbarcode from 'jsbarcode'
+
+import JsBarcode from 'jsbarcode'
 
 // FormatCode is a format of a barcode
 export type FormatCode =
@@ -129,7 +130,7 @@ export class NgxBarcodeComponent implements OnChanges {
         element = this.renderer.createElement('svg', 'svg')
     }
 
-    jsbarcode(element, this.value, this.options)
+    JsBarcode(element, this.value, this.options)
 
     for (let node of this.bcElement.nativeElement.childNodes) {
       this.renderer.removeChild(this.bcElement.nativeElement, node)
