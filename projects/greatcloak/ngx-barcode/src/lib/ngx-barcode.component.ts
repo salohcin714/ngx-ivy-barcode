@@ -79,7 +79,11 @@ export class NgxBarcodeComponent implements OnChanges {
   marginRight = 10
   @Input('bc-value')
   value = ''
-  @ViewChild('bcElement')
+
+  @ViewChild('bcElement', {
+    // Ensure element is loaded in ngOnChanges since normal @ViewChild is only set before `ngAfterViewInit`.
+    static: true,
+  })
   bcElement: ElementRef
 
   @Input('bc-valid')
