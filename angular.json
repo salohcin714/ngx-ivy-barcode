@@ -12,8 +12,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.lib.json",
-            "project": "projects/greatcloak/ngx-barcode/ng-package.json"
+            "tsConfig": "projects/ngx-ivy-barcode/tsconfig.lib.json",
+            "project": "projects/ngx-ivy-barcode/ng-package.json"
           },
           "configurations": {
             "production": {

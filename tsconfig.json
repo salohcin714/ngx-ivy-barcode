@@ -17,7 +17,7 @@
       "dom"
     ],
     "paths": {
-      "@greatcloak/ngx-barcode": [
+      "ngx-ivy-barcode": [
         "dist/greatcloak/ngx-barcode/greatcloak-ngx-barcode",
         "dist/greatcloak/ngx-barcode"
       ]
