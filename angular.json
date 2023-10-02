@@ -3,10 +3,10 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "@greatcloak/ngx-barcode": {
+    "ngx-ivy-barcode": {
       "projectType": "library",
-      "root": "projects/greatcloak/ngx-barcode",
-      "sourceRoot": "projects/greatcloak/ngx-barcode/src",
+      "root": "projects/ngx-ivy-barcode",
+      "sourceRoot": "projects/ngx-ivy-barcode/src",
       "prefix": "ngx",
       "architect": {
         "build": {
@@ -17,16 +17,16 @@
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-ivy-barcode/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/greatcloak/ngx-barcode/src/test.ts",
-            "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.spec.json",
-            "karmaConfig": "projects/greatcloak/ngx-barcode/karma.conf.js"
+            "main": "projects/ngx-ivy-barcode/src/test.ts",
+            "tsConfig": "projects/ngx-ivy-barcode/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-ivy-barcode/karma.conf.js"
           }
         }
       }

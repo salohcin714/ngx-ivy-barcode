@@ -16,11 +16,11 @@ This repository is a repackaged and updated version of ngx-barcode.
 
 Install via
 
-`npm i --save @greatcloak/ngx-barcode`
+`npm i --save ngx-ivy-barcode`
 
 # Original
 
-An angular component for Angular 13+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
+An angular component for Angular 14+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
 
 This is an updated and repackaged version of the original ngx-barcode. We have repackaged using the angular cli and angular v9.
 
@@ -29,8 +29,8 @@ This is an updated and repackaged version of the original ngx-barcode. We have r
 - Repackaged using angular cli instead of custom build
   - Easy to upgrade via `ng update`
   - Standard build process
-- Uses latest angular v9
-  - Actively updated to newer versions since this is used in live production apps. Typically updated a few weeks after each major angular release.
+- Uses latest angular v14
+  - Actively updated to newer versions since this is used in live production apps. Typically, updated a few weeks after each major angular release.
 - Minor improvements as needed
 
 ## Features
@@ -52,7 +52,7 @@ This is an updated and repackaged version of the original ngx-barcode. We have r
 To use ngx-barcode in your project, install it via npm:
 
 ```bash
-$ npm install --save @greatcloak/ngx-barcode
+$ npm install --save ngx-ivy-barcode
 ```
 
 ## Usage
@@ -65,8 +65,8 @@ import { NgModule } from '@angular/core'
 
 import { AppComponent } from './app.component'
 
-// Import ngx-barcode module
-import { NgxBarcodeModule } from '@greatcloak/ngx-barcode'
+// Import ngx-ivy-barcode module
+import { NgxBarcodeModule } from 'ngx-ivy-barcode'
 
 @NgModule({
   declarations: [AppComponent],
@@ -89,7 +89,7 @@ Once the library is imported, you can use the ngx-barcode component in your Angu
 
 ## Development
 
-To build the `@greatcloak/ngx-barcode` library using the angular cli use the following command.
+To build the `ngx-ivy-barcode` library using the angular cli use the following command.
 
 ```bash
 npm run build
@@ -105,7 +105,7 @@ To build and publish a new version run the following script.
 
 ## Demo
 
-We do not maintain a demo of this new version however you can look at the oriignal project's demo page to get an idea of what this does.
+We do not maintain a demo of this new version however you can look at the original project's demo page to get an idea of what this does.
 
 Basic [demo](https://yobryon.github.io/ngx-cdbarcode/demo/).
 
