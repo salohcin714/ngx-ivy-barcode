@@ -1,6 +1,6 @@
 {
   "name": "ngx-ivy-barcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular v14+ component for creating 1-D barcodes based on Lindell's JsBarcode. Repackaged and updated version of ngx-barcode.",
   "repository": {
     "type": "git",
@@ -8,8 +8,8 @@
   },
   "homepage": "https://github.com/salohcin714/ngx-ivy-barcode#readme",
   "author": {
-    "name": "Bryon Williams",
-    "email": "bryon.williams@live.com"
+    "name": "Nicholas Norris",
+    "email": "nicholas@anemos.dev"
   },
   "contributors": [
     {
@@ -17,8 +17,8 @@
       "email": "ed@freightchick.com"
     },
     {
-      "name": "Nicholas Norris",
-      "email": "nicholas@anemos.dev"
+      "name": "Bryon Williams",
+      "email": "bryon.williams@live.com"
     }
   ],
   "keywords": [
@@ -34,8 +34,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^14.2.3",
-    "@angular/core": "^14.2.3",
+    "@angular/common": "^16.2.7",
+    "@angular/core": "^16.2.7",
     "jsbarcode": "^3.11.5"
   }
 }

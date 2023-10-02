@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://cdn.rawgit.com/yobryon/ngx-barcode/master/docs/assets/ngx-barcode.svg" width="200px" alt="ngx-barcode">
   <h1 align="center">ngx-ivy-barcode</h1>
-  <p>ngx-barcode repackaged and updated for Angular v9+ using the Angular CLI</p>
+  <p>ngx-barcode repackaged and updated for Angular v16+ using the Angular CLI</p>
 </div>
 
 ---
@@ -10,7 +10,7 @@
 
 This repository is a repackaged and updated version of ngx-barcode.
 
-- Updated for angular 13+
+- Updated for angular 16+
 - Repackaged using angular cli for more efficient distribution files and standardized builds
 - Updated jsbarcode to latest 3.11.5+ with modern `import` statements
 
@@ -20,23 +20,23 @@ Install via
 
 # Original
 
-An angular component for Angular 14+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
+An angular component for Angular 16+ for creating 1-D barcodes based on [Lindell's JsBarcode](https://github.com/lindell/JsBarcode).
 
-This is an updated and repackaged version of the original ngx-barcode. We have repackaged using the angular cli and angular v9.
+This is an updated and repackaged version of the original ngx-barcode. We have repackaged using the angular cli and angular v16.
 
 ## Benefits over ngx-barcode
 
 - Repackaged using angular cli instead of custom build
   - Easy to upgrade via `ng update`
   - Standard build process
-- Uses latest angular v14
+- Uses latest angular v16
   - Actively updated to newer versions since this is used in live production apps. Typically, updated a few weeks after each major angular release.
 - Minor improvements as needed
 
 ## Features
 
 - Compatible with original ngx-barcode(just change imports)
-- Repackaged using angular cli and updated to support angular v9
+- Repackaged using angular cli and updated to support angular v16
 - supports all barcode formats provided by JsBarcode
 
   - CODE128

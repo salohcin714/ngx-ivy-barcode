@@ -18,8 +18,7 @@
     ],
     "paths": {
       "ngx-ivy-barcode": [
-        "dist/greatcloak/ngx-barcode/greatcloak-ngx-barcode",
-        "dist/greatcloak/ngx-barcode"
+        "dist/ngx-ivy-barcode"
       ]
     },
     "useDefineForClassFields": false
