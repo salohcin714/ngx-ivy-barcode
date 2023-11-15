@@ -84,7 +84,7 @@ Once the library is imported, you can use the ngx-barcode component in your Angu
 <h1>
   {{title}}
 </h1>
-<ngx-barcode [bc-value]="value" [bc-display-value]="true"></ngx-barcode>
+<ngx-ivy-barcode [bc-value]="value" [bc-display-value]="true"></ngx-barcode>
 ```
 
 ## Development
